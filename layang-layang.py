@@ -1,0 +1,16 @@
+print("Masukan nilai a:")
+a = int(input())
+print("Masukan nilai b:")
+b = int(input())
+print("Masukan nilai c:")
+c = int(input())
+print("Masukan nilai d:")
+d = int(input())
+print("Masukan nilai diagonal1:")
+diagonal1 = int(input())
+print("Masukan nilai diagonal2:")
+diagonal2 = int(input())
+keliling = a + b + c + d
+luas = float(1) / 2 * diagonal1 * diagonal2
+print("keliling layang layang :" + str(keliling))
+print("luas layang layang:" + str(luas))
